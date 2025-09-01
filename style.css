@@ -7,7 +7,7 @@ body {
     color: #ecf0f1;
     text-align: center;
     
-    background-image: url('fundo.jpg'); 
+    background-image: url('fundo.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para o cabeçalho */
+    background-color: rgba(0, 0, 0, 0.7);
     color: #ecf0f1;
     padding: 2rem 0;
     margin-bottom: 2rem;
@@ -39,7 +39,7 @@ main {
 }
 
 section {
-    background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente para as seções */
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -47,7 +47,7 @@ section {
 }
 
 h2 {
-    color: #3498db; /* Azul para os títulos */
+    color: #3498db;
     border-bottom: 2px solid #2980b9;
     padding-bottom: 0.5rem;
 }
@@ -70,7 +70,25 @@ a {
 }
 
 a:hover {
-    color: #85c1e9; /* Um azul mais claro no hover */
+    color: #85c1e9;
 }
 
+#info-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
+#info-container p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
