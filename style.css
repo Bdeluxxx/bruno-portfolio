@@ -3,17 +3,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Fundo preto */
-    color: #ecf0f1; /* Cor do texto claro para contrastar */
+    background-color: #000;
+    color: #ecf0f1;
     text-align: center;
     
-    /* Configurações da imagem de fundo */
-    background-image: url('fundo.jpg'); /* Nome do seu arquivo de imagem */
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center center; /* Centraliza a imagem */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
-    background-blend-mode: overlay; /* Mistura a imagem com a cor de fundo preta */
-    opacity: 0.8; /* Torna a imagem um pouco transparente */
+    background-image: url('fundo.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    opacity: 0.8;
 }
 
 header {
@@ -73,4 +72,5 @@ a {
 a:hover {
     color: #85c1e9; /* Um azul mais claro no hover */
 }
+
 
